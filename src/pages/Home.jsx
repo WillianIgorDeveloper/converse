@@ -14,12 +14,12 @@ export const Home = () => {
             <p className="text-lg">Seja bem vindo ao</p>
             <h1 className="text-5xl font-bold text-gray-900 dark:text-gray-50">Converse</h1>
             <p className="text-center text-gray-700 dark:text-gray-200 md:text-start">Um aplicativo de mensagens para você passar o tempo com os amigos</p>
-            <Link to='/app' className="py-2 mt-3 w-1/2 text-center text-xl font-medium text-gray-100 bg-teal-500 hover:bg-teal-600 active:scale-95 rounded transition-colors duration-200">Entrar</Link>
+            <Link to='/app' className="py-2 mt-3 w-full text-center text-xl font-medium text-gray-100 bg-teal-500 hover:bg-teal-600 active:scale-95 rounded-lg transition-colors duration-200">Entrar</Link>
           </div>
         </section>
         <section className="py-8">
           <h2 className="text-2xl font-semibold text-center py-2">Tecnologias</h2>
-          <div className="p-5 flex flex-wrap justify-center gap-3 lg:gap-8">
+          <div className="p-5 flex flex-wrap justify-center gap-3 md:gap-8">
             <div className="flex flex-col items-center w-40 h-44 justify-center p-3 gap-2 bg-gray-100 dark:bg-gray-800 shadow rounded text-center hover:scale-110 transition-transform duration-200">
               <div className="flex gap-2 justify-center">
                 <img src="/src/assets/icons/technologies/react.svg" alt="" className="h-12" />
@@ -37,6 +37,11 @@ export const Home = () => {
               <img src="/src/assets/icons/technologies/tailwindcss.svg" alt="" className="h-12" />
               <h3 className="text-xl text-gray-800 dark:text-gray-100">Tailwind</h3>
               <p className="text-sm text-gray-600 dark:text-gray-300">Estilização com estratégia<br />"mobile frist"</p>
+            </div>
+            <div className="flex flex-col items-center w-40 h-44 justify-center p-3 gap-2 bg-gray-100 dark:bg-gray-800 shadow rounded text-center hover:scale-110 transition-transform duration-200">
+              <img src="/src/assets/icons/technologies/antdesign.svg" alt="" className="h-12" />
+              <h3 className="text-xl text-gray-800 dark:text-gray-100">Ant Design</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Biblioteca de components</p>
             </div>
             <div className="flex flex-col items-center w-40 h-44 justify-center p-3 gap-2 bg-gray-100 dark:bg-gray-800 shadow rounded text-center hover:scale-110 transition-transform duration-200">
               <img src="/src/assets/icons/technologies/supabase.svg" alt="" className="h-12" />
