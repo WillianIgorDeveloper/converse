@@ -58,7 +58,7 @@ export const SideBar = () => {
         </div>
         <GearSix className="text-2xl cursor-pointer hover:scale-110" weight="bold" onClick={() => { setEditUserModal(!editUserModal) }} />
       </div>
-      {editUserModal && <UserModal editUserModal={editUserModal} setEditUserModal={setEditUserModal} />}
+      {editUserModal && <EditUserModal editUserModal={editUserModal} setEditUserModal={setEditUserModal} />}
     </>
   )
 }
@@ -97,12 +97,15 @@ export const Message = () => {
 
 
 
-export const UserModal = ({ editUserModal, setEditUserModal }) => {
+export const EditUserModal = ({ editUserModal, setEditUserModal }) => {
 
   return (
     <div className="fixed w-full h-screen top-0 left-0 backdrop-blur flex items-center justify-center">
-      <div className="w-4/5 bg-gray-100 flex flex-col items-center justify-center p-3 rounded-lg z-20">
-        <h1>Editar perfil</h1>
+      <div className="w-4/5 bg-gray-100 flex flex-col items-center justify-center gap-3 p-3 rounded-lg z-20">
+        <h1 className="text-lg font-semibold">Editar perfil</h1>
+        <div className="w-full">
+          <Input name="nickName" placeholder="Escolha seu nome" className="border-gray-500 w-full placeholder:text-gray-400" />
+        </div>
       </div>
       <div className="w-full h-screen absolute top-0 left-0 z-10" onClick={() => { setEditUserModal(!editUserModal) }}></div>
     </div>
