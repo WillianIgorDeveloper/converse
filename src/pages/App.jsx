@@ -69,7 +69,7 @@ export const UsersCard = () => {
   return (
     <div className="w-full pb-3 flex justify-center items-center gap-3 border-b border-gray-300 dark:border-gray-700 last:border-0">
       <div className="relative">
-        <img src="/src/assets/profile.jpg" className="rounded-full w-10 h-10" />
+        <img src="/assets/profile.jpg" className="rounded-full w-10 h-10" />
         <div className="w-3 h-3 rounded-full bg-green-400 absolute top-0 right-0"></div>
       </div>
       <div className="hidden md:block flex-1 overflow-hidden ">
@@ -86,7 +86,7 @@ export const Message = () => {
 
   return (
     <div className="flex gap-3 border-b border-gray-300 dark:border-gray-700 py-3 last:border-0">
-      <img src="/src/assets/profile.jpg" className="w-10 h-10 rounded-full mt-3" />
+      <img src="/assets/profile.jpg" className="w-10 h-10 rounded-full mt-3" />
       <div className="flex-1">
         <span className="text-sm text-gray-500">Profile name</span>
         <p>Olá!</p>
