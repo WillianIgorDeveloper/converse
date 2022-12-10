@@ -57,7 +57,7 @@ export const Home = () => {
             <p className=" font-light">Desenvolvido por <span className="font-semibold block">Willian Igor</span></p>
             <a href="https://github.com/WillianIgorDeveloper" target="_blank" className="hover:text-teal-400"><GithubLogo className="text-2xl" /></a>
             <a href="https://willianigordeveloper.vercel.app/" target="_blank" className="hover:text-teal-400"><Globe className="text-2xl" /></a>
-            <ThemeToggle className="text-2xl hover:text-teal-400 cursor-pointer" />
+            <ThemeToggle className="text-2xl hover:text-teal-400" />
           </div>
           <a href="https://storyset.com/people" className="text-xs font-light" target="_blank">People illustrations by Storyset</a>
         </div>

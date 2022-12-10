@@ -19,7 +19,7 @@ export const Login = () => {
           <Button className="w-4/5"><DiscordLogo className="text-xl" weight="bold" /> Entrar com Discord</Button>
           <form className="w-full flex justify-center pt-4">
             <fieldset className="w-4/5 flex flex-col items-center text-center border-t pt-4 gap-3">
-              <legend className="px-3 flex items-center justify-center gap-3">Entrar com Link mágico <MagicWand /></legend>
+              <legend className="px-3 flex items-cen\ter justify-center gap-3">Entrar com Link mágico <MagicWand /></legend>
               <label htmlFor="email" className="hidden">Email</label>
               <Input size="large" name="email" placeholder="Digite o seu email" prefix={<User className="text-xl text-gray-500" weight="bold" />} className="border-gray-500 w-full placeholder:text-gray-400" type="email" />
               <Button className="w-full" submit >Enviar</Button>

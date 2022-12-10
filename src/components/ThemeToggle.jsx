@@ -13,8 +13,8 @@ export const ThemeToggle = ({ className }) => {
     <div className={className}>
       {
         localStorage.theme === undefined || localStorage.theme === "dark"
-          ? <Sun onClick={()=>{setChangeTheme(!changeTheme); localStorage.theme = 'light'}} />
-          : <Moon onClick={()=>{setChangeTheme(!changeTheme); localStorage.theme = 'dark'}} />
+          ? <Sun className="cursor-pointer" onClick={()=>{setChangeTheme(!changeTheme); localStorage.theme = 'light'}} />
+          : <Moon className="cursor-pointer" onClick={()=>{setChangeTheme(!changeTheme); localStorage.theme = 'dark'}} />
       }
     </div>
   )
