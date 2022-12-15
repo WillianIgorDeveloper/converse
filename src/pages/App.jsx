@@ -93,8 +93,8 @@ export const UsersCard = () => {
         <div className="w-3 h-3 rounded-full bg-green-400 absolute top-0 right-0"></div>
       </div>
       <div className="hidden md:block flex-1 overflow-hidden ">
-        <span className="truncate block">Profile nickname</span>
-        <span className="text-xs block truncate">Profile message</span>
+        <span className="truncate block">ADM Sara</span>
+        <span className="text-xs block truncate">Atualizações de perfil em breve...</span>
       </div>
     </div>
   )
