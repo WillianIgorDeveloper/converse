@@ -94,7 +94,7 @@ export const UsersCard = () => {
       </div>
       <div className="hidden md:block flex-1 overflow-hidden ">
         <span className="truncate block">ADM Sara</span>
-        <span className="text-xs block truncate">Atualizações de perfil em breve...</span>
+        <span className="text-xs block truncate" title='Atualizações de perfil em breve...'>Atualizações de perfil em breve...</span>
       </div>
     </div>
   )
